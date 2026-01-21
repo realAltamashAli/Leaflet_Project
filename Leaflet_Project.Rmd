@@ -1,0 +1,41 @@
+---
+title: "Interactive Mapping with Leaflet"
+author: "Altamash Ali"
+date: "January 21, 2026"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(leaflet)
+```
+
+## Global Landmark Exploration
+This document features an interactive map created using the leaflet package in R. The map below highlights the Eiffel Tower in Paris, France.
+
+Click on the marker to see more information!
+
+```{r}
+# Define coordinates for the Eiffel Tower
+lat <- 48.8584
+lng <- 2.2945
+
+# Create the interactive map
+my_map <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lat=lat, lng=lng, 
+             popup="<strong>Eiffel Tower</strong><br>Paris, France<br>Built in 1889")
+
+my_map
+```
+
+## Summary
+The map was generated using the following steps:
+
+1. Initializing the leaflet object with `leaflet()`.
+2. Adding geographic tiles with `addTiles()`.
+3. Placing a marker with a customized HTML popup via `addMarkers()`
+
+### Source Code
+The full source code for this project is available on GitHub: 
+[View Source on GitHub](https://github.com/realAltamashAli/Leaflet_Project)
