@@ -1,8 +1,8 @@
 # Developing Data Products: Interactive Mapping with Leaflet
 
-This repository contains a web page created using R Markdown and the Leaflet package. This project was completed as part of the **Developing Data Products** course from Johns Hopkins University on Coursera.
-
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+This repository contains a web page created using R Markdown and the Leaflet package. This project was completed as part of the **Developing Data Products** course from Johns Hopkins University on Coursera.
 
 ## Project Overview
 The objective of this assignment was to create a reproducible, web-hosted document that features:
